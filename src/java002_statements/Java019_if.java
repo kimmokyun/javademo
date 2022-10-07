@@ -1,4 +1,4 @@
-package java002_statemments;
+package java002_statements;
 
 /* 다중 if~else
  * if(조건식){

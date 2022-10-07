@@ -1,4 +1,4 @@
-package java002_statemments;
+package java002_statements;
 /*
  * 조건식을 만족할때만 수행할 문장이 잇는 경우
  * if(조건식) {

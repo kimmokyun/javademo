@@ -1,4 +1,4 @@
-package java002_statemments;
+package java002_statements;
 
 /*
  * switch(식){

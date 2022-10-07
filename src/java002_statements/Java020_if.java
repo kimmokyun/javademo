@@ -1,4 +1,4 @@
-package java002_statemments;
+package java002_statements;
 
 public class Java020_if {
 /*

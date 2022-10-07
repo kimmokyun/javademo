@@ -1,4 +1,4 @@
-package java002_statemments;
+package java002_statements;
 
 /*
  * 직급에 따른 수령 월급
