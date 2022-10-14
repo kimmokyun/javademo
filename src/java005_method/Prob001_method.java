@@ -1,4 +1,4 @@
-package java005_method.answ;
+package java005_method;
 /*
 매개변수로 받은 두 정수형 배열의 내용을 결합하여 하나의 배열로 리터하는 
 mergeArray() 메서드를 구현하시오.

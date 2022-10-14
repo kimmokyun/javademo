@@ -20,12 +20,19 @@ goods[0] = new Goods("Nikon", 400000,30,50);
 goods[1] = new Goods("Sony", 450000,20, 35);
 goods[2] = new Goods("Fujifilm", 3500000,10,25);
 
-for(int i=0; i<goods.length; i++) {
-	goods[i].display();
-	
-}
-
+//for(int i=0; i<goods.length; i++) {
+//	goods[i].display();
+//	
+//}
+process(goods);
 
 	}
+	
+	public static void process(Goods[] goods) {
+		for(int i=0; i<goods.length; i++) {
+			goods[i].display();
+		}
+	}
+	
 
 }
