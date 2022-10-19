@@ -7,7 +7,7 @@ package java012_api;
  *    dlroW olleH
  *    !gnimmargorP avaJ
  */
-public class Prob002_String { 
+public class Prob002_String {
 
 	public static void main(String[] args) {
 		char[] array1 = reverse("Hello World");
@@ -19,8 +19,12 @@ public class Prob002_String {
 
 	public static char[] reverse(String str) {
 		//여기를 구현하세요.
+		char[] data=new char[str.length()];
+		for(int i=str.length()-1; i>=0;i--){
+			data[str.length()-1-i]=str.charAt(i);		  
+		}
 		
-		return null;
+		return data;
 	}//end reverse()
 
 	public static void printCharArray(char[] array) {
